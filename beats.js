@@ -52,4 +52,8 @@ $(document).ready(function() {
      playtone(this.id);
    });
 
+   $('.beatBtn').on("tap",function() {
+     playtone(this.id);
+   });
+
 });
